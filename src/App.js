@@ -1,13 +1,9 @@
-import CleanUp from "./CleanUp";
-import ToDoList from "./ToDoList";
-import CoinTracker from "./CoinTracker";
+import Movie from "./Movie";
 
 function App() {
   return (
     <div>
-      <CleanUp/>
-      <ToDoList/>
-      <CoinTracker/>
+      <Movie/>
     </div>
   );
 }
