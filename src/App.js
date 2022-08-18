@@ -1,11 +1,13 @@
 import CleanUp from "./CleanUp";
 import ToDoList from "./ToDoList";
+import CoinTracker from "./CoinTracker";
 
 function App() {
   return (
     <div>
       <CleanUp/>
-      <ToDoList />
+      <ToDoList/>
+      <CoinTracker/>
     </div>
   );
 }
